@@ -1,0 +1,6 @@
+func server.callRequest(req: Request, res: Response) {
+    for i = 0; i < 5; i += 1
+    {
+        print(req.headers)
+    }
+}
